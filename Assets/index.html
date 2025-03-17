@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+    <title>KaTeX in Unity</title>
+</head>
+<body>
+    <div id="math"></div>
+    <script>
+        const expression = "\\frac{a}{b} + \\sqrt{c}";
+        const container = document.getElementById("math");
+        katex.render(expression, container, {
+            throwOnError: false
+        });
+    </script>
+</body>
+</html>
