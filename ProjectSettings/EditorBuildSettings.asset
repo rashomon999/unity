@@ -4,6 +4,84 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/TeoremaFundamental.unity
+    guid: 53aa7b9d2a6a5994fa2af3be6b382607
+  - enabled: 1
+    path: Assets/Scenes/TeoremaFundamentalParteDos.unity
+    guid: 7dc225efe41b872489b20ee2791573c1
+  - enabled: 1
+    path: Assets/Scenes/TeoremaFundamentalParteDos_2.unity
+    guid: 3d1dcae47d3b6d64d8aedfa6184dffef
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Uno.unity
+    guid: bc447b1d2620e4e45a8d978739227408
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Dos.unity
+    guid: 7230a8fe0c705924a9fca1593dd206b7
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Tres.unity
+    guid: 56492ef8ea08db6418c90a4cfd04eacc
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Cuatro.unity
+    guid: 77bfe6a11e4b7a747a82473c261fc87f
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Cinco.unity
+    guid: 83284ec60885d794ea78314a3378d6d8
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Seis.unity
+    guid: 38559f585b80c454b8f0bda4df039b75
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Siete.unity
+    guid: 003a3cd6697346a4ba8032c6d92b59a7
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Ocho.unity
+    guid: 2a36a6e1eabed494bbde3d3395f909d3
+  - enabled: 1
+    path: Assets/Scenes/Derivada_Nueve.unity
+    guid: 36aaf04fe307105428a68a2b0a3b1995
+  - enabled: 1
+    path: Assets/Scenes/Secuencia_Uno.unity
+    guid: c4d4154fd4bf28143ad648ed558f27be
+  - enabled: 1
+    path: Assets/Scenes/Secuencia_Dos.unity
+    guid: 41f11702d274ee244bf627b82169caae
+  - enabled: 1
+    path: Assets/Scenes/Secuencia_Tres.unity
+    guid: bbfb09090af9dfb4aa165fedef3dc10c
+  - enabled: 1
+    path: Assets/Scenes/Secuencia_Cuatro.unity
+    guid: dac7dc475f0008047adc722d5bf4f865
+  - enabled: 1
+    path: Assets/Scenes/Secuencia_Cinco.unity
+    guid: 81a6856d7f81f9c47a7563fbd67604ae
+  - enabled: 1
+    path: Assets/Scenes/Secuencia_Seis.unity
+    guid: 0e499ce441b69604a92a4598bc076570
+  - enabled: 1
+    path: Assets/Scenes/Series_Uno.unity
+    guid: 0c5d9093aa5e53a4cb2d0d8d43c4a2bc
+  - enabled: 1
+    path: Assets/Scenes/Series_Dos.unity
+    guid: 5eb617b2635bef84abc0ac62db6140cc
+  - enabled: 1
+    path: Assets/Scenes/Series_Tres.unity
+    guid: 3455935b5d8976f46b74eb0ed7de249d
+  - enabled: 1
+    path: Assets/Scenes/Series_Cuatro.unity
+    guid: 192d62282852f6a45a0fe7533e0ac26b
+  - enabled: 1
+    path: Assets/Scenes/Series_Cinco.unity
+    guid: 7cea052e6d96a7d4198776d19b896474
+  - enabled: 1
+    path: Assets/Scenes/Series_Seis.unity
+    guid: e6cacf611bf1d6948b48b2b0e2837422
+  - enabled: 1
+    path: Assets/Scenes/Series_Ocho.unity
+    guid: f274aa22db1b77f42a61ebfcb5aeeaa0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

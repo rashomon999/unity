@@ -3,18 +3,38 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
-    // Método para cambiar de escena
-    public void ChangeScene(string sceneName)
+    // Métodos para navegar a cada escena del menú
+    public void IrATeoremaParteUno()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("TeoremaFundamental");
     }
 
-    // Ejemplo de un método que utiliza el `if`
-    public void UpdateBackgroundImageColor(UnityEngine.UI.Image backgroundImage, Color nuevoColor)
+    public void IrADerivadaUno()
     {
-        if (backgroundImage != null)
-        {
-            backgroundImage.color = nuevoColor;
-        }
+        SceneManager.LoadScene("Derivada_Uno");
+    }
+
+    public void IrASecuenciaUno()
+    {
+        SceneManager.LoadScene("Secuencia_Uno");
+    }
+
+    public void IrASeriesUno()
+    {
+        SceneManager.LoadScene("Series_Uno");
+    }
+
+    public void IrAIntegral()
+    {
+        SceneManager.LoadScene("integral");
+    }
+
+    public void Salir()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 }
