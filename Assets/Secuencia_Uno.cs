@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -64,7 +64,7 @@ public class Secuencia_Uno : MonoBehaviour
         }
         else
         {
-            resultadoText.text = "Â¡Todas las respuestas son correctas!";
+            resultadoText.text = "¡Todas las respuestas son correctas!";
             LoadNextScene();
         }
     }
@@ -108,18 +108,21 @@ public class Secuencia_Uno : MonoBehaviour
     string respuestaCorrecta,
     int numeroInput,
     ref bool hayErrores,
-    ref string mensaje
-)
+    ref string mensaje)
 {
-    // ðŸš¨ Si el input no existe en esta escena â†’ se ignora
+    // Si el input no existe en esta escena ? se ignora
     if (input == null)
         return;
 
-    // Si estÃ¡ vacÃ­o, NO se valida
+    // Si est� vac�o ? error
     if (string.IsNullOrWhiteSpace(input.text))
+    {
+        hayErrores = true;
+        mensaje += $"Input {numeroInput} est� vac�o\n";
         return;
+    }
 
-    // Si escribiÃ³ algo y estÃ¡ mal â†’ error
+    // Si escribi� algo y est� mal ? error
     if (input.text != respuestaCorrecta)
     {
         hayErrores = true;
@@ -129,4 +132,5 @@ public class Secuencia_Uno : MonoBehaviour
 
 
 }
+
 

@@ -108,18 +108,21 @@ public class TeoremaParteUno : MonoBehaviour
     string respuestaCorrecta,
     int numeroInput,
     ref bool hayErrores,
-    ref string mensaje
-)
+    ref string mensaje)
 {
-    // ðŸš¨ Si el input no existe en esta escena â†’ se ignora
+    // Si el input no existe en esta escena ? se ignora
     if (input == null)
         return;
 
-    // Si estÃ¡ vacÃ­o, NO se valida
+    // Si está vacío ? error
     if (string.IsNullOrWhiteSpace(input.text))
+    {
+        hayErrores = true;
+        mensaje += $"Input {numeroInput} está vacío\n";
         return;
+    }
 
-    // Si escribiÃ³ algo y estÃ¡ mal â†’ error
+    // Si escribió algo y está mal ? error
     if (input.text != respuestaCorrecta)
     {
         hayErrores = true;
@@ -129,3 +132,4 @@ public class TeoremaParteUno : MonoBehaviour
 
 
 }
+
